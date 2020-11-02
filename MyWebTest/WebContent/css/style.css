@@ -1,0 +1,119 @@
+
+body {
+    background: url('../images/codesheep.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+img {
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+}
+
+#login-box {
+    width: 365px;
+    height: 18%;
+    margin: 0 auto;
+    margin-top: 3%;
+    background: #00000060;
+    padding: 20px 40px 20px 70px;
+    border-radius: 10pt;
+
+}
+
+#login-box h1 {
+    color: #fff;
+    text-align: center;
+    padding-right: 25px;
+}
+
+#login-box .form .item {
+    margin-top: 15px;
+    text-align: center;
+    float: left;
+}
+
+#login-box .form .item i {
+    font-size: 18px;
+    color: #fff;
+}
+
+#login-box .form .item input {
+    width: 200px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding: 5px 5px;
+    background: #ffffff00;
+    color: #fff;
+}
+
+#login-box .form .item1 {
+    margin-top: 15px;
+    text-align: center;
+    float: left;
+}
+
+#login-box .form .item1 i {
+    font-size: 18px;
+    color: #fff;
+}
+
+#login-box .form .item1 input {
+    left: 10px;
+    width: 100px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding: 5px 5px 5px 10px;
+    background: #ffffff00;
+    color: #fff;
+}
+
+#login-box .form label {
+    color: #fff;
+}
+
+#login-box .form .keep {
+    color: #fff;
+    float: left;
+    font-size: 13px;
+    padding: 0px 30px;
+}
+
+#login-box .form .keep a {
+	osition: absolute;
+    right: 0px;
+    width: 50px;
+    padding-left: 100px;
+    color:#ffff00;
+    text-decoration: none;
+}
+#view {
+	color: #fff;
+    float: left;
+    font-size: 13px;
+    margin: 0px;
+}
+
+#submit {
+    width: 20em;
+    height: 3em;
+    color: #fff;
+    font-size: .86em;
+    border-radius: 3rem;
+    background: #007bff;
+    margin:20px 0px 0px 30px;
+
+}
+#checkError {
+	color: red;
+	float: left;
+	margin: 0;
+	font-size: .70em;
+}
+
+#che {
+	float: right;
+}

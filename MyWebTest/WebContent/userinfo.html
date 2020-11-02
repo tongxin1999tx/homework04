@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户信息界面</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/userinfo.js"></script>
+    <link rel="stylesheet" href="css/userinfo.css">
+</head>
+
+<body id="tbody">
+    <div id="pagebody">
+        <div id="search">
+            <form id="searchtext">
+                <input type="text" name="userName" placeholder="输入用户名">
+                <input type="text" name="chrName" placeholder="输入姓名">
+                <input type="text" name="mail" placeholder="输入邮箱">
+                <input type="text" name="provinceName" placeholder="输入省份">
+            </form>
+            <div id="bt">
+                <a href="#" id="btSearch">查找</a>
+                <a href="#" id="btClear">清空</a>
+                <a href="#" id="btAdd">增加</a>
+                <a href="#" id="btDelete">删除</a>
+                <a href="#" id="btUpdate">修改</a>
+            </div>
+        </div>
+        <table id="inform">
+            <tr>
+                <th id="checkall"><input type="checkbox"></th>
+                <th id="userName">用户名</th>
+                <th>姓名</th>
+                <th>邮箱</th>
+                <th>省份</th>
+                <th>城市</th>
+                <th>操作</th>
+            </tr>
+        </table>
+        <div id="pagese">
+            <div id="pagesize">
+                <select id="pagesize">
+                    <option >5</option>
+                    <option selected>10</option>
+                    <option >20</option>
+                </select>,共
+                <span id="total"></span>条数据
+                <span id="pagenumber">1</span>页/
+                <span id="pagecount"></span>页
+            </div>
+            <div id="pagenext">
+                <a href="#" id="first">首页</a>
+                <a href="#" id="back">上一页</a>
+                <a href="#" id="next">下一页</a>
+                <a href="#" id="last">尾页</a>
+            </div>
+        </div>
+    </div>
+    <div id="fade" class="black_over" onclick="CloseDiv('mydiv','fade')"></div>
+    <div id="mydiv" class="white_content">
+        <div style="text-align: right;height: 20px;">
+            <span style="font-size: 24px;cursor: pointer;" title="点击关闭" onclick="CloseDiv('mydiv','fade')">x</span>
+            <form>
+                <tr><input type="text" name="" id=""></tr>
+                <tr><input type="text" name="" id=""></tr>
+                <tr><input type="text" name="" id=""></tr>
+                <tr><input type="text" name="" id=""></tr>
+                <tr><input type="text" name="" id=""></tr>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

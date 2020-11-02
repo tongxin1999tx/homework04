@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/changeImg.js"></script>
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <form>
+        <div id="login-box">
+            <h1>用户登录</h1>
+            <div class="form">
+                <div class="item">
+                    <label for="userName" id="un">账&nbsp;&nbsp;&nbsp;号：</label>
+                    <input type="text" placeholder="Username" name="user" id="userName" onclick="onChang1(this)">
+                    <div id="che"><label id="usName"></label></div>
+                </div>
+                <div class="item">
+                    <label for="password" id="pa">密&nbsp;&nbsp;&nbsp;码：</label>
+                    <input type="password" placeholder="Password" name="pass" id="password" onclick="onChang2(this)">
+                    <div id="che"><label id="paword"></label></div>
+                </div>
+                <div class="item1">
+                    <label for="Verifycode" id="uc">验证码：</label>
+                    <input type="text" name="userCode" id="Verifycode" class="boxt" placeholder="Verifycode" onclick="onChang3(this)">
+                    <img src="servlet/CreateVerify" onclick="changeImg();" id="Verifyimg" title="看不清，换一个" style="color: aliceblue;">
+                	<div id="che"><label id="vco"></label></div>
+                </div>
+                <br>
+                <div class="keep">               	
+                	<input  type="checkbox" name="keep" value="remember" id="autoLogin">一周内免登陆
+                	<a href="register.jsp">注册账号？</a>
+                </div>
+            </div>
+            <br><br>       
+            <p id="checkError" onshow="checkError();"></p>   
+            <div class="submit1">
+            	
+                <input id="submit" type="button" name="s1" onclick="ajaxCheckLogin();" value="登&nbsp;录">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

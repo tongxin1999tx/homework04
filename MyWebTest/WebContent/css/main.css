@@ -1,0 +1,22 @@
+body {
+    background: url('../images/view.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+a {
+	text-decoration:none;
+}
+#div_link {
+	position: absolute;
+	right: 0px;
+    width: 500px;
+    padding: 10px;
+    letter-spacing:10px;
+}
+
+#div_name {
+	position: absolute;
+	right: 0px;
+    width: 300px;
+
+}

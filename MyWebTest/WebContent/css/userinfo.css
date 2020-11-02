@@ -1,0 +1,122 @@
+#tbody {
+    width: 70%;
+    margin: auto;
+}
+
+#pagebody {
+    overflow: auto;
+    width: auto;
+}
+
+#search {
+    overflow: auto;
+}
+
+#searchtext {
+    float: left;
+}
+
+#bt {
+    float: right;
+}
+
+#pagese {
+    float: left;
+}
+
+#pagesize {
+    float: left;
+}
+
+#inform {
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+#inform tr th {
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 80px;
+}
+
+#checkall {}
+
+#userName {
+    overflow: auto;
+}
+
+#pagenext {
+    overflow: auto;
+}
+
+.tr_hover {
+    overflow: auto;
+}
+
+.tr_select {
+    overflow: auto;
+}
+
+.btDelete {
+    overflow: auto;
+}
+
+#btSearch {
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(0, 238, 255);
+}
+
+#btClear {
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(0, 255, 149);
+}
+
+#btAdd {
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(0, 238, 255);
+}
+
+#btDelete {
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(0, 255, 149);
+}
+
+#btUpdate {
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(0, 238, 255);
+}
+
+.btUpdate {
+    overflow: auto;
+}
+
+.black_over {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(187, 184, 184);
+    z-index: 1001;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.white_content {
+    display: none;
+    position: absolute;
+    width: 390px;
+    border: 6px solid lightblue;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+}
